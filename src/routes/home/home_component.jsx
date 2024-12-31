@@ -17,12 +17,7 @@ const HomeComponent = () => {
 					sm: "160px",
 					lgTo2xl: "180px",
 				}}>
-				<Box
-					display="flex"
-					flexDirection="column"
-					width="100%"
-					justifyContent="stretch"
-					alignItems="stretch">
+				<Box display="flex" flexDirection="column">
 					<Flex flexBasis="50%" justify="center">
 						<Image
 							boxSize="350px"
@@ -33,9 +28,9 @@ const HomeComponent = () => {
 						/>
 					</Flex>
 					<Box
-						paddingX={{
-							base: "80px",
-							sm: "80px",
+						padding={{
+							base: "30px",
+							sm: "40px",
 							lgTo2xl: "180px",
 						}}
 						marginBottom="80px">

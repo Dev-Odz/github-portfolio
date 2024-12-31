@@ -39,7 +39,7 @@ const SkillsComponent = () => {
 				</Box>
 			</Center>
 
-			<Box p="80px 80px" display="flex" flexDirection="column">
+			<Box p="80px 40px" display="flex" flexDirection="column">
 				{/* LANGUAGE */}
 				<Text
 					color="black"

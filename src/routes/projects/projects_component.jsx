@@ -36,7 +36,12 @@ const ProjectsComponent = () => {
 			</Text>
 
 			<Grid
-				templateColumns="repeat(3, 1fr)"
+				templateColumns={{
+					base: "repeat(1, 1fr)",
+					sm: "repeat(1, 1fr)",
+					md: "repeat(3, 1fr)",
+					lgTo2xl: "repeat(4, 1fr)",
+				}}
 				columnGap="10"
 				rowGap="20"
 				p="30px 40px 50px 40px">
