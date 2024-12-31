@@ -23,7 +23,7 @@ const AboutMeComponent = () => {
 				color="black"
 				p={{
 					base: "80px 70px 0px 35px",
-					smToXl: "80px 80px 0px 80px",
+					smToXl: "80px 40px 0px 40px",
 				}}
 				wordSpacing="2px"
 				letterSpacing="1px"
@@ -40,7 +40,7 @@ const AboutMeComponent = () => {
 				color="black"
 				p={{
 					base: "20px 70px 0px 35px",
-					smToXl: "80px 80px 0px 80px",
+					smToXl: "30px 40px 0px 40px",
 				}}
 				wordSpacing="2px"
 				letterSpacing="1px"
@@ -56,7 +56,7 @@ const AboutMeComponent = () => {
 				color="black"
 				p={{
 					base: "20px 70px 0px 35px",
-					smToXl: "80px 80px 0px 80px",
+					smToXl: "30px 40px 0px 40px",
 				}}
 				wordSpacing="2px"
 				letterSpacing="1px"
@@ -71,7 +71,7 @@ const AboutMeComponent = () => {
 				color="black"
 				p={{
 					base: "20px 70px 0px 35px",
-					smToXl: "80px 80px 0px 80px",
+					smToXl: "30px 40px 0px 40px",
 				}}
 				wordSpacing="2px"
 				letterSpacing="1px"
@@ -88,7 +88,7 @@ const AboutMeComponent = () => {
 				color="black"
 				p={{
 					base: "20px 70px 0px 35px",
-					smToXl: "80px 80px 0px 80px",
+					smToXl: "30px 40px 0px 40px",
 				}}
 				wordSpacing="2px"
 				letterSpacing="1px"
@@ -104,7 +104,7 @@ const AboutMeComponent = () => {
 				color="black"
 				p={{
 					base: "20px 70px 0px 35px",
-					smToXl: "80px 80px 0px 80px",
+					smToXl: "30px 40px 0px 40px",
 				}}
 				wordSpacing="2px"
 				letterSpacing="1px"

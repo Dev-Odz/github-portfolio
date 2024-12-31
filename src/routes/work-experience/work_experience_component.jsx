@@ -22,7 +22,8 @@ const WorkExperienceComponent = () => {
 			<Grid
 				templateColumns={{
 					base: "repeat(1, 1fr)",
-					sm: "repeat(2, 1fr)",
+					sm: "repeat(1, 1fr)",
+					md: "repeat(2, 1fr)",
 					lgToXl: "repeat(2, 1fr)",
 				}}
 				columnGap={{
