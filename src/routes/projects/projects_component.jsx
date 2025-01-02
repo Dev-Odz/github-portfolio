@@ -14,7 +14,12 @@ const ProjectsComponent = () => {
 					borderColor="black"
 					color="black"
 					borderWidth="5px"
-					width="55vw"
+					width={{
+						base: "80vw",
+						sm: "70vw",
+						md: "70vw",
+						lgTo2xl: "65vw",
+					}}
 					textAlign="center"
 					fontWeight="bold"
 					fontSize="30px"
@@ -29,7 +34,6 @@ const ProjectsComponent = () => {
 				wordSpacing="2px"
 				letterSpacing="1px"
 				lineHeight="2rem"
-				textIndent="20"
 				textAlign="center">
 				Here are some of my personal projects, including an overview of each and
 				details about the tech stack used.
@@ -50,14 +54,15 @@ const ProjectsComponent = () => {
 						height="300px"
 						width="100%"
 						overflow="hidden"
-						marginBottom="1rem">
+						marginBottom="1rem"
+						borderRadius="14px">
 						<Image
 							src={crownClothingImage}
 							height="300px"
 							width="100%"
 							objectFit="cover"
 							borderRadius="14px"
-							transition="transform 1.5s ease"
+							transition="transform .5s ease"
 							_hover={{
 								transform: "scale(1.1)", // Scales the image by 10%
 							}}
@@ -106,14 +111,15 @@ const ProjectsComponent = () => {
 						height="300px"
 						width="100%"
 						overflow="hidden"
-						marginBottom="1rem">
+						marginBottom="1rem"
+						borderRadius="14px">
 						<Image
 							src={polarExpressImage}
 							height="300px"
 							width="100%"
 							objectFit="cover"
 							borderRadius="14px"
-							transition="transform 1.5s ease"
+							transition="transform .5s ease"
 							_hover={{
 								transform: "scale(1.1)", // Scales the image by 10%
 							}}
@@ -164,14 +170,15 @@ const ProjectsComponent = () => {
 						height="300px"
 						width="100%"
 						overflow="hidden"
-						marginBottom="1rem">
+						marginBottom="1rem"
+						borderRadius="14px">
 						<Image
 							src={calculatorImage}
 							height="300px"
 							width="100%"
 							objectFit="cover"
 							borderRadius="14px"
-							transition="transform 1.5s ease"
+							transition="transform .5s ease"
 							_hover={{
 								transform: "scale(1.1)", // Scales the image by 10%
 							}}

@@ -43,8 +43,8 @@ const HomeComponent = () => {
 							Odeh Mark Lozano
 						</Heading>
 						<Text color="#9C9C9C" paddingBottom="10px">
-							Hi, I’m Odeh Mark Lozano! I’m a Full-Stack Developer with
-							expertise in React, Node.js, PHP, and Flutter.
+							Hi, I’m a Full-Stack Developer with expertise in React, Node.js,
+							PHP, and Flutter.
 						</Text>
 						<Text color="#9C9C9C" paddingBottom="10px">
 							I thrive on solving complex problems and creating impactful

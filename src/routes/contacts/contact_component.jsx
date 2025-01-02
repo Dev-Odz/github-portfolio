@@ -69,7 +69,12 @@ const ContactComponent = () => {
 					borderColor="black"
 					color="black"
 					borderWidth="5px"
-					width="55vw"
+					width={{
+						base: "80vw",
+						sm: "70vw",
+						md: "70vw",
+						lgTo2xl: "65vw",
+					}}
 					textAlign="center"
 					fontWeight="bold"
 					fontSize="30px"
@@ -80,6 +85,7 @@ const ContactComponent = () => {
 
 			<Box
 				margin="100px auto"
+				p="20px"
 				width="500px"
 				display="flex"
 				flexDirection="column"

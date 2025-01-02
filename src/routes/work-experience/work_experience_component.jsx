@@ -10,7 +10,12 @@ const WorkExperienceComponent = () => {
 					borderColor="black"
 					color="black"
 					borderWidth="5px"
-					width="55vw"
+					width={{
+						base: "80vw",
+						sm: "70vw",
+						md: "70vw",
+						lgTo2xl: "65vw",
+					}}
 					textAlign="center"
 					fontWeight="bold"
 					fontSize="30px"
@@ -34,7 +39,7 @@ const WorkExperienceComponent = () => {
 				rowGap="10"
 				autoRows="auto"
 				p={{
-					base: "80px 0px 50px 0px",
+					base: "80px 20px 50px 20px",
 					sm: "80px 40px 50px 40px",
 				}}>
 				<Box

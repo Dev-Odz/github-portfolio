@@ -30,7 +30,12 @@ const SkillsComponent = () => {
 					borderColor="black"
 					color="black"
 					borderWidth="5px"
-					width="65vw"
+					width={{
+						base: "80vw",
+						sm: "70vw",
+						md: "70vw",
+						lgTo2xl: "65vw",
+					}}
 					textAlign="center"
 					fontWeight="bold"
 					fontSize="30px"

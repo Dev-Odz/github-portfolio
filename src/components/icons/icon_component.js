@@ -6,7 +6,6 @@ const IconComponent = ({ icon, label }) => {
 			display="flex"
 			flexDirection="column"
 			alignItems="center"
-			justifyContent="space-between"
 			height="150px">
 			<Image
 				src={icon}
@@ -20,6 +19,7 @@ const IconComponent = ({ icon, label }) => {
 					sm: "80px",
 					lg: "100px",
 				}}
+				marginBottom="1.25rem"
 			/>
 
 			<Text color="black" fontWeight="light" fontSize="20px">
